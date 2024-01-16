@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1217785697293177747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217785697293177772}
+  - component: {fileID: 1217785697293177773}
+  m_Layer: 0
+  m_Name: Level Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1217785697293177772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217785697293177747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1217785697293177773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217785697293177747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa437c555cf626d46a7d3b0dcababc16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  levels:
+  - {fileID: 11400000, guid: a4639d0734ce0654b9ee71cc0b2d4be4, type: 2}
+  - {fileID: 11400000, guid: 0789d13a3485e0049bc588f2fd7c8f45, type: 2}
+  - {fileID: 11400000, guid: 9d1f6a661467cb84a831bfdfcd35aa67, type: 2}
+  - {fileID: 11400000, guid: 0c94584b6e737574a9bf8b1e0a65bdbe, type: 2}
+  - {fileID: 11400000, guid: 7c8c53147381de149a24c5823dc65f5c, type: 2}
+  zombiePrefabs:
+  - {fileID: 4089378858638608501, guid: 4ba14656e1c4578498f2dfd2b993a7e2, type: 3}
+  - {fileID: 4089378858638608501, guid: 1ff7cb5e83f19c84698ad223f2677073, type: 3}
+  - {fileID: 4089378858638608501, guid: 8687857377ca78c43ad99daf9c6f712b, type: 3}
+  currentLevel: {fileID: 11400000, guid: a4639d0734ce0654b9ee71cc0b2d4be4, type: 2}
+  currentStage: {fileID: 11400000, guid: b56cd59029184044f89f9fb12a3e8de6, type: 2}
+  currentPlatform: {fileID: 0}
+  levelEndTransform: {fileID: 0}
+  levelColorData: {fileID: 11400000, guid: 5a743f98875c52141a574ce06a4535b9, type: 2}

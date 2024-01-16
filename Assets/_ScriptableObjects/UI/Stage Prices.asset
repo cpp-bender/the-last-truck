@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da836cafdf523e244a8d2edb249ea41a, type: 3}
+  m_Name: Stage Prices
+  m_EditorClassIdentifier: 
+  weaponDeckPrices: c8000000f401000000000000
+  durabilityPrices: 640000007d00000096000000af000000c800000000000000
+  incomePrices: 640000007d00000096000000af000000c800000000000000

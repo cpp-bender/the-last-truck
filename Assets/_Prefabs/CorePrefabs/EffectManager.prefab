@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1704758237810423415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1704758237810423413}
+  - component: {fileID: 1704758237810423412}
+  m_Layer: 0
+  m_Name: EffectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1704758237810423413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704758237810423415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1704758237810423412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704758237810423415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522faef10aad6824abdac4c000bbb386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  effectStructs:
+  - effectPrefab: {fileID: 130848, guid: d16221e794fe16e4e8994a7f8c770561, type: 3}
+    poolTag: 3
+  - effectPrefab: {fileID: 1055585006069982, guid: c7f93a0255162fd47bbe40874f339bf4, type: 3}
+    poolTag: 4
+  - effectPrefab: {fileID: 168136, guid: 47c6eee70f9391f46a710b0592491a63, type: 3}
+    poolTag: 5
+  - effectPrefab: {fileID: 9159976251089584360, guid: ce277fe9053400e4b84cc2776bdc5c34, type: 3}
+    poolTag: 6
+  - effectPrefab: {fileID: 4180270741543205373, guid: 28729da90a867124cae1ecbf8f5cae61, type: 3}
+    poolTag: 7
+  - effectPrefab: {fileID: 6934017770395847349, guid: f33968e9ee86e274883a1137feb10a75, type: 3}
+    poolTag: 8
+  - effectPrefab: {fileID: 2808100040839317059, guid: 3b8c02daf60ff9d46beb87ec6141a09d, type: 3}
+    poolTag: 11
